@@ -2,20 +2,61 @@ html{
     background-color: rgb(255, 255, 255);
     min-height: min-content;
     min-width: min-content;
+    max-width: 98%;
 }
 header{
-    margin: 10px 10px;
+    margin: 1%;
     height: 50px;
-    width: 97%;
+    width: 98%;
     background-color: rgba(0, 0, 0, 0.568);
     display: flex;
     justify-content: center;
     border-radius: 15px;
-    -webkit-box-shadow:0px 0px 95px 19px rgba(255,217,217,0.3);
-    -moz-box-shadow: 0px 0px 95px 19px rgba(255,217,217,0.3);
-    box-shadow: 0px 0px 95px 19px rgba(255,217,217,0.3);
     font-size: larger ;
     font-weight: bold;
+}
+footer{
+    background-color: rgba(255, 0, 255, 0.568);
+    display:inline-flex;
+    width: 98%;
+    border-radius: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.company{
+    font-size: larger;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+.caution{
+    font-size: 10px;
+}
+.information{
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+}
+.time-of-work{
+    display:grid;
+
+}
+.adress{
+    display: grid;
+}
+.phone{
+    display: grid;
 }
 .text-on-head{
     text-align: center;
@@ -43,7 +84,7 @@ p{
     
 }
 
-.text-block{
+.text-block-web{
     margin-left: 5%;
     display: inline-flex;
     background-color: black;
@@ -52,35 +93,57 @@ p{
     color:rgba(52, 42, 42, 0.801);
     border-radius: 20px;
 }
-.text-block p{
+.text-block-web p{
     font-size: larger;
 }
-.text-block a{
+.text-block-web a{
     background-color: rgba(240, 248, 255, 0.308);
     border-radius: 10px;
     padding: 10px;
 }
 
 
-.image-block{
+.text-block-OC{
     display: inline-flex;
     flex-wrap: wrap;
     width: 50%;
     background-color: rgb(212, 212, 212);
     border-radius: 20px;
-    -webkit-box-shadow:0px 0px 95px 19px rgba(255,217,217,0.3);
-    -moz-box-shadow: 0px 0px 95px 19px rgba(255,217,217,0.3);
-    box-shadow: 0px 0px 95px 19px rgba(255,217,217,0.3);
     size-adjust: auto;
 
 }
-.image-block p{
+.text-block-OC p{
     font-size: larger;
     color:rgba(0, 0, 0, 0.774);
     padding-left: 20px;
 }
-.image-block a{
+.text-block-OC a{
     background-color: rgba(0, 0, 0, 0.377);
     padding: 10px;
     border-radius: 10px;
+}
+.text-block-api{
+    display:flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height:min-content;
+    margin: 1% 5% 5% 5%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 136, 0.788);
+    size-adjust: auto;
+    align-items:center ;
+    
+
+}
+.text-block-api p{
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.733);
+}
+.text-block-api a{
+    background-color: rgba(255, 254, 254, 0.411);
+    padding:10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
